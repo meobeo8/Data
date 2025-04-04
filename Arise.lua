@@ -1,10 +1,10 @@
 local arise8 = {}
 
-function arise8.data1()
+function arise8.dungeon()
     return "\5"
 end
 
-function arise8.data2()
+function arise8.normal()
     return "\t"
 end
 
