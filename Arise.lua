@@ -4,6 +4,10 @@ function arise8.normal()
     return "\5"
 end
 
+function arise8.vip()
+    return "\5"
+end
+
 function arise8.dungeon()
     return "\t"
 end
