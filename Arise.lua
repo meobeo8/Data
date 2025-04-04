@@ -12,4 +12,12 @@ function arise8.dungeon()
     return "\t"
 end
 
+function arise8.m1()
+    return "\4"
+end
+
+function arise8.data2()
+    return "\n"
+end
+
 return arise8
