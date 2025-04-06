@@ -9,7 +9,7 @@ function arise8.vip()
 end
 
 function arise8.dungeon()
-    return "\t"
+    return "\5"
 end
 
 function arise8.m1()
