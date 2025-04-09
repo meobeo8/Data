@@ -5,7 +5,7 @@ function arise8.normal()
 end
 
 function arise8.vip()
-    return "\5"
+    return "\t"
 end
 
 function arise8.dungeon()
