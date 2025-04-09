@@ -20,4 +20,8 @@ function arise8.data2()
     return "\n"
 end
 
+function arise8.data3()
+    return "\t"
+end
+
 return arise8
