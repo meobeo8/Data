@@ -1,7 +1,7 @@
 local arise8 = {}
 
 function arise8.normal()
-    return "\5"
+    return "\t"
 end
 
 function arise8.vip()
