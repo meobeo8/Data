@@ -13,7 +13,15 @@ local codes = {
     "EASTER FAILING",
     "ARX Release!!!",
     "Happy birthday to those born today ARX Release",
-    "1K Favorites"
+    "1K Favorites",
+    "50K CCU",
+    "40K Likes!",
+    "45K CCU",
+    "10K Favorites",
+    "THX FOR 20K CCU",
+    "ROAD TO 1M VISIT!",
+    "SRY FOR SHUTDOWN",
+    "15K Likes"
 }
 
 for _, code in ipairs(codes) do
