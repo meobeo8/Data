@@ -6,7 +6,7 @@ local codes = {
     "Im Back",
     "125M Visits",
     "100K CCU",
-    "Easter Egg 2025!",
+    "SORRY4BUGS",
     "GHOUL!",
     "UPDATE 1"
 }
