@@ -6,7 +6,9 @@ local codes = {
     "Im Back",
     "125M Visits",
     "100K CCU",
-    "Easter Egg 2025!"
+    "Easter Egg 2025!",
+    "GHOUL!",
+    "UPDATE 1"
 }
 
 for _, code in ipairs(codes) do
