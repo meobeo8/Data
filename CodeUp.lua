@@ -1,6 +1,7 @@
 local codes = {
     "SorryForBugGamepass.",
-    "Sorryforanything"
+    "Sorryforanything",
+    "ILOVEYOU"
 }
 
 for _, code in ipairs(codes) do
