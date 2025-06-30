@@ -1,6 +1,6 @@
 local codes = {
-    "UPDATE0.5",
-    "SORRYFROMPIKACHU"
+    "UPD0.75",
+    "Sorryfordelay"
 }
 
 for _, code in ipairs(codes) do
