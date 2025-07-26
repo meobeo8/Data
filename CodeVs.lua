@@ -4,6 +4,6 @@ local codes = {
 }
 
 for _, code in ipairs(codes) do
-    task.wait(0.2)
     game:GetService("ReplicatedStorage").BetweenSides.Remotes.Events.CodesEvent:FireServer("Redeem", codes)
+    task.wait(1)
 end
