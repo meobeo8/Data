@@ -1,6 +1,6 @@
 local codes = {
     "UPD0.75",
-    "Sorryfordelay"
+    "UPDATE1"
 }
 
 for _, code in ipairs(codes) do
