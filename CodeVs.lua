@@ -2,7 +2,8 @@ local codes = {
     "Release",
     "BugFix1",
     "BugFix2",
-    "BugFix3"
+    "BugFix3",
+    "BugFix4"
 }
 
 for _, code in ipairs(codes) do
