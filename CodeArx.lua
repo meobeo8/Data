@@ -45,7 +45,16 @@ local codes = {
     "ragebait",
     "PortalsFix",
     "UPDATE 1.5",
-    "THANKYOU4PATIENCE"
+    "THANKYOU4PATIENCE",
+    "Shutdown2!",
+    "UpgradeInFieldFix!",
+    "DBZUpdate!",
+    "NewPortals?!",
+    "GTBossEvent!!",
+    "SorryForDelayz!",
+    "MassiveUpdate!",
+    "NewDragonSoul?!",
+    "UpdateFieldFix!"
 }
 
 local function redeemCode(code)
