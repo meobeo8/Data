@@ -1,4 +1,11 @@
 local codes = {
+    "Weloveroblox!",
+    "Shutdown2!",
+    "UpgradeInFieldFix!",
+    "DBZUpdate!",
+    "NewPortals?!",
+    "GTBossEvent!!",
+    "SorryForDelayz!",
     "LBreset!",
     "SECRETCODE!",
     "RiftMode!",
@@ -45,20 +52,11 @@ local codes = {
     "ragebait",
     "PortalsFix",
     "UPDATE 1.5",
-    "THANKYOU4PATIENCE",
-    "Shutdown2!",
-    "UpgradeInFieldFix!",
-    "DBZUpdate!",
-    "NewPortals?!",
-    "GTBossEvent!!",
-    "SorryForDelayz!",
-    "MassiveUpdate!",
-    "NewDragonSoul?!",
-    "UpdateFieldFix!"
+    "THANKYOU4PATIENCE"
 }
 
 local function redeemCode(code)
-    local success, err = pcall(function()
+    pcall(function()
         game:GetService("ReplicatedStorage").Remote.Server.Lobby.Code:FireServer(code)
     end)
 end
