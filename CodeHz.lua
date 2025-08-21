@@ -8,7 +8,8 @@ local codes = {
     "20KLIKES",      -- 5 Traits
     "30KLIKES",      -- 10 Lucky Perk Spin
     "100KMEMBERS",   -- 100K Coin
-    "40KLIKES"       -- 5 Traits
+    "40KLIKES",      -- 5 Traits
+    "50KLIKES"       -- 55555 Coin
 }
 
 for _, code in ipairs(codes) do
