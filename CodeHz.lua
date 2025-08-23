@@ -16,10 +16,17 @@ local codes = {
     "Release",      -- 5 Lucky Weapon Spins
     "Release2",     -- 20000 Cash
     "10KEVENT",     -- 30000 Cash
-    "Sorryhaha"     -- 5 Lucky Perk Spins
+    "Sorryhaha",    -- 5 Lucky Perk Spins
+    "150KLIKES",    -- 15k Coins
+    "120KIN",       -- 30k Coins
+    "Scythecool",   -- 10 Spins
+    "Hzdelay",      -- 50k Coins
+    "Hugecode",     -- 150k Coins
+    "WDEV1",        -- 5 Lucky Weapon Spins
+    "WDEV2"         -- 5 Traits
 }
 
 for _, code in ipairs(codes) do
     game:GetService("ReplicatedStorage").Packets.RedeemCode:InvokeServer(code)
-    task.wait(1)
+    task.wait(0.3)
 end
