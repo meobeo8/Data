@@ -9,6 +9,8 @@ local codes = {
 }
 
 for _, code in ipairs(codes) do
-    game:GetService("ReplicatedStorage").Packets.RedeemCode:InvokeServer(code)
-    task.wait(0.3)
+    pcall(function()
+        game:GetService("ReplicatedStorage").Packets.RedeemCode:InvokeServer(code)
+    end)
+    task.wait(0.5)
 end
