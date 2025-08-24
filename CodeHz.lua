@@ -5,7 +5,8 @@ local codes = {
     "Hzdelay",   -- 50k Coins
     "Hugecode",  -- 150k Coins
     "WDEV1",     -- 5 Lucky Weapon Skins
-    "WDEV2"      -- 5 Traits
+    "WDEV2",      -- 5 Traits
+    "200KLIKES"
 }
 
 for _, code in ipairs(codes) do
