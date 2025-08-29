@@ -1,7 +1,10 @@
 local codes = {
-    "Hugecode",
-    "FIXBUGS67",
-    "200KLIKES"
+    "sorryforbug",
+    "200KCCU",
+    "NEWPLAYER1",
+    "200KIN",
+    "DAGGER",
+    "300KLIKES"
 }
 
 for _, code in ipairs(codes) do
