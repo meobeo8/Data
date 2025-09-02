@@ -1,8 +1,5 @@
 local codes = {
-    "DAGGER",
-    "200KIN",
-    "NEWPLAYER1",
-    "200KCCU",
+    "SUPERWDEV",
     "400KLIKES"
 }
 
