@@ -1,6 +1,6 @@
 local codes = {
-    "SUPERWDEV",
-    "400KLIKES"
+    "WHYJUMP",
+    "MUHAHA"
 }
 
 for _, code in ipairs(codes) do
