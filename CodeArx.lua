@@ -52,16 +52,36 @@ local codes = {
     "ragebait",
     "PortalsFix",
     "UPDATE 1.5",
-    "THANKYOU4PATIENCE"
+    "THANKYOU4PATIENCE",
+    "CyclopsSoulMine!",
+    "CelestialMageOp67",
+    "FairyPatch67",
+    "ReallySorry4Delay",
+    "FallPart2!?!",
+    "Sorry6.5UpdateIsReal!!!",
+    "FairyTalePeak!",
+    "Sorry4Delay",
+    "FollowUpTheInsta!",
+    "SorryForPassiveDelay!",
+    "FixPatchSJW!",
+    "SoloPeakLeveling!",
+    "NewRaidAndEvos?!",
+    "IgrisIsMetaAgain!!",
+    "SorryForAllTheIssues!",
+    "PityOnRanger?!",
+    "TYFORTHESUPPORT!?",
+    "FallEvent?!",
+    "SorryForLate!",
+    "NewRangerUnit!",
+    "NewCode!?",
+    "BerserkUpdate?!",
+    "NewDivineTrials!",
+    "MinstaGroupOnTop!"
 }
 
-local function redeemCode(code)
+for _, code in ipairs(codes) do
     pcall(function()
         game:GetService("ReplicatedStorage").Remote.Server.Lobby.Code:FireServer(code)
+        task.wait(0.2)
     end)
-end
-
-for _, code in ipairs(codes) do
-    redeemCode(code)
-    task.wait(0.2)
 end
