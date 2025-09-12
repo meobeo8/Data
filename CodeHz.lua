@@ -1,8 +1,8 @@
 local codes = {
-    "HZCrafting2",
-    "EMOTEISHERE",
-    "B4UPD3",
-    "HZCrafting"
+    "latehunty",
+    "SCISSORS",
+    "ZOMBIECLAW",
+    "UPD3"
 }
 
 for _, code in ipairs(codes) do
