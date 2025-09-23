@@ -1,4 +1,8 @@
 local codes = {
+    "FinallyFate!",
+    "Update7!!",
+    "Goodbye6.7Update",
+    "FollowUpTheIG!!!",
     "FreeCyclopsSoul",
     "SorryForShutdownBlameZaru",
     "NewGearMode?!",
@@ -84,9 +88,11 @@ local codes = {
     "THANKYOU4PATIENCE",
 }
 
+local remote = game:GetService("ReplicatedStorage").Remote.Server.Lobby.Code
+
 for _, code in ipairs(codes) do
     pcall(function()
-        game:GetService("ReplicatedStorage").Remote.Server.Lobby.Code:FireServer(code)
+        remote:FireServer(code)
         task.wait(0.2)
     end)
 end
