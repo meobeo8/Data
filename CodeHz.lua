@@ -1,12 +1,9 @@
 local codes = {
-    "UPDATE4",
-    "JUSTACOIN",
-    "ENDLESSWOW",
-    "Anchor",
-    "UPD3",
-    "ZOMBIECLAW",
-    "SCISSORS",
-    "latehunty"
+    "HBDPFRESH",
+    "WeaponMastery",
+    "Raidmodehaha",
+    "Bow",
+    "Shoes"
 }
 
 for _, code in ipairs(codes) do
