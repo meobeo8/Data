@@ -3,7 +3,8 @@ local codes = {
     "WeaponMastery",
     "Raidmodehaha",
     "Bow",
-    "Shoes"
+    "Shoes",
+    "RAIDTICKET5"
 }
 
 for _, code in ipairs(codes) do
